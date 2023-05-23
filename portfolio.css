@@ -1,0 +1,105 @@
+* {
+    /* margin: 0 auto; */
+    /* border: 1px solid white; */
+    /* text-align: center; */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 70px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex: 1; */
+    width: 30%;
+}
+
+.name {
+    float: left;
+    flex: 1;
+}
+
+.portrait-container {
+    display: flex;
+    justify-content: center;
+}
+
+.portrait-container > img {
+    height: 400px;
+}
+
+.bio-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.portfolio-section > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+li::marker {
+    content: "";
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.machine-learning > img,
+.web-dev > img,
+.data-analysis > img {
+    height: 300px;
+    width: 100%;
+    flex: 1;
+}
+
+.project-links {
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: blue;
+}
+
+.skill-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.play-button {
+    height: 70px;
+    position: relative;
+    top: -190px;
+    left: 220px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+video{
+    width: 100%;
+}
