@@ -19,110 +19,128 @@
             </div>
             <div class="sections">
                 <h2 class="portfolio-section" id="portfolio-title">
-                    Portfolio
+                    <a href="#port">Portfolio</a>
                 </h2>
                 <h2 class="education-section" id="education-title">
-                    Education
+                    <a href="#edu">Education</a>
                 </h2>
                 <h2 class="contact-section" id="contact-title">
-                    Contact Info
+                    <a href="#contacto">Contact Info</a>
                 </h2>
             </div>
         </div>
 
         <div class="about-section">
             <div class="portrait-container">
-                <img src="./images/stairs-image.jpg">
+                <img class="portrait-images" src="./images/stairs-image.jpg">
+                <img class="arrows" id="left-slideshow-arrow" src="./images/left-slideshow-arrow.png"
+                    onclick="backArrow()">
+                <img class="arrows" id="right-slideshow-arrow" src="./images/left-slideshow-arrow.png"
+                    onclick="forwardArrow()">
             </div>
             <div class="bio-container">
-                <!-- <p>
-                    Software Developer with experience in
-                    <br>
-                    <ul>
+            </div>
+        </div>
+
+        <div class="portfolio-section" id="port">
+            <h1>
+                Portfolio
+            </h1>
+            <div class="skills">
+                <div class="machine-learning">
+                    <p class="skill-title">
+                        Machine Learning
+                    </p>
+                    <img src="./images/machine-learning.jpg">
+                    <ul class="project-links">
                         <li>
-                            Machine Learning
-                        </li>
-                        <br>
-                        <li>
-                            Full-Stack Web Development
-                        </li>
-                        <br>
-                        <li>
-                            Data Analysis
+                            <a href="https://github.com/mcarthon/Masters_Thesis_Material">
+                                Masters Thesis: Paraphrase Detection (NLP)
+                            </a>
                         </li>
                     </ul>
-                </p> -->
+                    <div class="port-vid">
+                        <video src="./videos/dummy-video.mp4">
+                        </video>
+                        <img class="play-button" src="./images/play.jpg">
+                        <div class="video-menu">
+                        </div>
+                    </div>
+                </div>
+                <div class="web-dev">
+                    <p class="skill-title">
+                        Web Development
+                    </p>
+                    <img src="./images/web-dev.jpg">
+                    <ul class="project-links">
+                        <li>
+                            <a href="http://127.0.0.1:5501/PersonalPortfolio/portfolio.html">
+                                Recursion
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="port-vid">
+                        <video src="./videos/dummy-video.mp4">
+                        </video>
+                        <img class="play-button" src="./images/play.jpg">
+                        <div class="video-menu">
+                        </div>
+                    </div>
+                </div>
+                <div class="data-analysis">
+                    <p class="skill-title">
+                        Data Analysis
+                    </p>
+                    <img src="./images/data-analysis.jpg">
+                    <ul class="project-links">
+                        <li>
+                            <a href="https://github.com/mcarthon/Lending-Club-Capstone/blob/main/Capstone.ipynb">
+                                Lending Club Loan Defaults
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="port-vid">
+                        <video src="./videos/dummy-video.mp4">
+                        </video>
+                        <img class="play-button" src="./images/play.jpg">
+                        <div class="video-menu">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-    <div class="portfolio-section">
-        <h1>
-            Portfolio
+        <div class="education-container" id="edu">
+            <div class="edu-title">
+                <h1>
+                    Education
+                </h1>
+            </div>
+            <div class="uwm-photo-div">
+                <img src="./images/UWM.jpg">
+                <p>
+                    University of Wisconsin - Milwaukee Alumnus
+                    <br><br>Masters Degree in Mathematics
+                    <br><br>Masters Thesis in Natural Language Processing (NLP)
+                    <br><br>Bachelors Degree in Mathematics
+                </p>
+            </div>
+        </div>
+
+        <h1 id="contact-h1">
+            Contact Info Links
         </h1>
-        <div class="skills">
-            <div class="machine-learning">
-                <p class="skill-title">
-                    Machine Learning
-                </p>
-                <img src="./images/machine-learning.jpg">
-                <ul class="project-links">
-                    <li>
-                        <a href="https://github.com/mcarthon/Masters_Thesis_Material">
-                            Masters Thesis: Paraphrase Detection (NLP)
-                        </a>
-                    </li>
-                </ul>
-                <div class="port-vid">
-                    <video src="./videos/dummy-video.mp4">
-                    </video>
-                    <img class="play-button" src="./images/play.jpg">
-                    <div class="video-menu">
-                    </div>
-                </div>
-            </div>
-            <div class="web-dev">
-                <p class="skill-title">
-                    Web Development
-                </p>
-                <img src="./images/web-dev.jpg">
-                <ul class="project-links">
-                    <li>
-                        <a href="http://127.0.0.1:5501/PersonalPortfolio/portfolio.html">
-                            Recursion
-                        </a>
-                    </li>
-                </ul>
-                <div class="port-vid">
-                    <video src="./videos/dummy-video.mp4">
-                    </video>
-                    <img class="play-button" src="./images/play.jpg">
-                    <div class="video-menu">
-                    </div>
-                </div>
-            </div>
-            <div class="data-analysis">
-                <p class="skill-title">
-                    Data Analysis
-                </p>
-                <img src="./images/data-analysis.jpg">
-                <ul class="project-links">
-                    <li>
-                        <a href="https://github.com/mcarthon/Lending-Club-Capstone/blob/main/Capstone.ipynb">
-                            Lending Club Loan Defaults
-                        </a>
-                    </li>
-                </ul>
-                <div class="port-vid">
-                    <video src="./videos/dummy-video.mp4">
-                    </video>
-                    <img class="play-button" src="./images/play.jpg">
-                    <div class="video-menu">
-                    </div>
-                </div>
-            </div>
+        <div class="contact-container" id="contacto">
+            <a href="https://www.linkedin.com/in/markcarthon/" target="_blank">
+                <img class="contact-icons" src="./images/linkedin-logo.png">
+            </a>
+            <a href="mailto:macarthoniii@gmail.com" target="_blank">
+                <img class="contact-icons" src="./images/email-logo.png">
+            </a>
+            <a href="https://github.com/mcarthon?tab=repositories" target="_blank">
+                <img class="contact-icons" src="./images//github-logo.png">
+            </a>
         </div>
-
-    </div>
 
     </div>
     <script src="portfolio.js"></script>
