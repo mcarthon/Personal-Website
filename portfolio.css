@@ -45,7 +45,7 @@ body {
 .portrait-images {
     height: 400px;
     /* width: 600px; */
-    overflow:hidden;
+    overflow:scroll;
 }
 
 .bio-container {
